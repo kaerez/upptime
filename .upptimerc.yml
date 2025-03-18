@@ -24,16 +24,29 @@ sites:
     url: 8.8.4.4
     port: 53
     slug: G8844
+  - name: Google DNS 8.8.8.8 - IPv6
+    icon: https://www.google.com/favicon.ico
+    check: "tcp-ping"
+    url: 8.8.8.8
+    port: 53
+    ipv6: true
+    slug: G8888ipv6
+  - name: Google DNS 8.8.4.4 - IPv6
+    icon: https://www.google.com/favicon.ico
+    check: "tcp-ping"
+    url: 8.8.4.4
+    port: 53
+    ipv6: true
+    slug: G8844ipv6
   - name: Google DNS - dns.google
     icon: https://www.google.com/favicon.ico
     url: https://dns.google
     slug: GURIv4
-  - name: Google DNS IPv6 - dns.google
-    icon: https://www.google.com/favicon.ico
-    url: https://dns.google
-    ipv6: true
-    slug: GURIv6
 
+# - name: POST to Google
+#   url: https://www.google.com
+#   method: POST
+#
 # - name: Secret Site
 #   url: $SECRET_SITE
 #
