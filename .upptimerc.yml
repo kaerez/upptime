@@ -1,10 +1,81 @@
 # Change these first
 owner: kaerez # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
+# If issues are deleted, they won't show up in the incident history.
+skipDeleteIssues: true
+# skipDescriptionUpdate: true
+# skipTopicsUpdate: true
+skipHomepageUpdate: true
+user-agent: GH
 
 sites:
   - name: KSEC
     url: https://www.kalman.co.il
+    slug: KSEC
+  - name: Google DNS 8.8.8.8
+    icon: https://www.google.com/favicon.ico
+    check: "tcp-ping"
+    url: 8.8.8.8
+    port: 53
+    slug: G8888
+- name: Google DNS 8.8.4.4
+    icon: https://www.google.com/favicon.ico
+    check: "tcp-ping"
+    url: 8.8.4.4
+    port: 53
+    slug: G8844
+- name: Google DNS - dns.google
+    icon: https://www.google.com/favicon.ico
+    check: "tcp-ping"
+    url: dns.google
+    port: 53
+    slug: GURIv4
+- name: Google DNS IPv6 - dns.google
+    icon: https://www.google.com/favicon.ico
+    check: "tcp-ping"
+    url: dns.google
+    port: 53
+    ipv6: true
+    slug: GURIv6
+
+# - name: Secret Site
+#   url: $SECRET_SITE
+#
+# - name: API endpoint
+#   url: https://example.com/get-user/3?api_key=$MY_API_KEY
+#
+# - name: API endpoint with data
+#   method: POST
+#   url: https://example.com/login
+#   headers:
+#     - "Content-Type: application/json"
+#   body: '{ "password": "hello" }'
+#
+# - name: Google
+#     url: https://www.google.com
+# assignees can be global and in each check
+#     assignees:
+#           - AnandChowdhary
+#     expectedStatusCodes:
+#       - 200
+#       - 201
+#       - 404
+# default is 30 seconds, 5000 = 5 seconds
+#    maxResponseTime: 5000
+# if http response has File not found then degraded
+#    __dangerous__body_degraded: "File not found"
+# if http response has File not found then down
+#    __dangerous__body_down: "File not found"
+# if http response does NOT have status:UP then down
+#  __dangerous__body_down_if_text_missing: '"status":"UP"'
+# if http response does NOT have status:UP then degraded
+#  __dangerous__body_degraded_if_text_missing: '"status":"UP"'
+# don't check server cert ca validity
+#   __dangerous__disable_verify_peer: true
+# don't check server cert name mismatch
+#   __dangerous__disable_verify_host: true
+# don't check server cert AT ALL (ca / host)
+#   __dangerous__insecure: true
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -12,9 +83,33 @@ status-website:
   # cname: demo.upptime.js.org
   baseUrl: /upptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  # favicon: https://example.com/favicon.png
+  # faviconSvg: https://example.com/logo.svg
+  # customHeadHtml: "<!-- Custom HTML to add in the <head> tag -->"
+  # customBodyHtml: "<!-- Custom HTML to add at the beginning of <body> -->"
+  # external js
+  # scripts:
+  #   - src: https://example.com/script.js
+  #   - src: https://example.com/script-2.js
+  #     async: true
+  # internal js
+  # js: "window.onload = function() { alert('Hello!') }"
+  links:
+    - rel: stylesheet
+      href: https://example.com/custom-styles.css
+  css: "body { opacity: 0.5 }"
+  metaTags:
+    - name: "color-scheme"
+      content: "dark light"
+    - name: "robots"
+      content: "noindex"
+  robotsText: "User-agent: * \n Disallow: /"
+
   name: KSEC Status Monitor
   introTitle: "**KSEC**"
-  introMessage: **Status Monitor**
+  # introMessage: **Status Monitor**
+  introMessage: This is a sample status page which uses **real-time** data from our [Github repository](https://github.com/koj-co/upptime). No server required — just GitHub Actions, Issues, and Pages.
+  theme: light #light, dark, night or ocean
   navbar:
     - title: Status
       href: /
