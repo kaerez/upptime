@@ -94,21 +94,21 @@ status-website:
   # By default, Upptime uses https://raw.githubusercontent.com to fetch raw content from GitHub repositories. If you are using a proxy or another content delivery URL, you can replace the default user content base URL.
   # userContentBaseUrl: https://raw.githubusercontent.com
   i18n:
-    footer: ""
+    footer: KSEC Status Monitor
   links:
     - rel: stylesheet
       href: https://example.com/custom-styles.css
-  css: "body { opacity: 0.5 }"
+  #css: "body { opacity: 0.5 }"
   metaTags:
-    - name: "color-scheme"
-      content: "dark light"
+  #  - name: "color-scheme"
+  #    content: "dark light"
     - name: "robots"
       content: "noindex"
   robotsText: "User-agent: * \n Disallow: /"
 
-  name: KSEC
-  introTitle: "**KSEC**"
-  introMessage: "**Status Monitor**"
+  name: KSEC Status Monitor
+  introTitle: "**Status Details**"
+  introMessage: "**View Current and Past Status**"
   theme: light #light, dark, night or ocean
   # navbar:
   #   - title: aaa
