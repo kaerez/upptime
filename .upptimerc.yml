@@ -11,7 +11,8 @@ user-agent: GH
 sites:
   - name: KSEC
     url: https://www.kalman.co.il
-    maxResponseTime: 30000
+    check: "tcp-ping"
+    port: 443
     slug: KSEC
   - name: Google DNS 8.8.8.8
     icon: https://www.google.com/favicon.ico
@@ -28,7 +29,7 @@ sites:
   - name: Google DNS - dns.google
     icon: https://www.google.com/favicon.ico
     url: https://dns.google
-    slug: GURIv4
+    slug: GURI
 
 # - name: POST to Google
 #   url: https://www.google.com
@@ -95,9 +96,9 @@ status-website:
   # userContentBaseUrl: https://raw.githubusercontent.com
   i18n:
     footer: KSEC Status Monitor
-  links:
-    - rel: stylesheet
-      href: https://example.com/custom-styles.css
+  #links:
+  #  - rel: stylesheet
+  #    href: https://example.com/custom-styles.css
   #css: "body { opacity: 0.5 }"
   metaTags:
   #  - name: "color-scheme"
