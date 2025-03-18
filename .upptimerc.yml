@@ -18,19 +18,19 @@ sites:
     url: 8.8.8.8
     port: 53
     slug: G8888
-- name: Google DNS 8.8.4.4
+  - name: Google DNS 8.8.4.4
     icon: https://www.google.com/favicon.ico
     check: "tcp-ping"
     url: 8.8.4.4
     port: 53
     slug: G8844
-- name: Google DNS - dns.google
+  - name: Google DNS - dns.google
     icon: https://www.google.com/favicon.ico
     check: "tcp-ping"
     url: dns.google
     port: 53
     slug: GURIv4
-- name: Google DNS IPv6 - dns.google
+  - name: Google DNS IPv6 - dns.google
     icon: https://www.google.com/favicon.ico
     check: "tcp-ping"
     url: dns.google
