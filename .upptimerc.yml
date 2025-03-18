@@ -6,10 +6,11 @@ skipDeleteIssues: true
 skipDescriptionUpdate: true
 skipTopicsUpdate: true
 skipHomepageUpdate: false
-user-agent: GH
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
 
 sites:
   - name: KSEC
+    icon: https://icons.duckduckgo.com/ip3/www.kalman.co.il.ico
     url: www.kalman.co.il
     check: "tcp-ping"
     port: 443
@@ -79,7 +80,8 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
   baseUrl: /upptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://icons.duckduckgo.com/ip3/www.kalman.co.il.ico
+  favicon: https://icons.duckduckgo.com/ip3/www.kalman.co.il.ico
   # favicon: https://example.com/favicon.png
   # faviconSvg: https://example.com/logo.svg
   # customHeadHtml: "<!-- Custom HTML to add in the <head> tag -->"
@@ -94,8 +96,6 @@ status-website:
   # js: "window.onload = function() { alert('Hello!') }"
   # By default, Upptime uses https://raw.githubusercontent.com to fetch raw content from GitHub repositories. If you are using a proxy or another content delivery URL, you can replace the default user content base URL.
   # userContentBaseUrl: https://raw.githubusercontent.com
-  i18n:
-    footer: KSEC Status Monitor
   #links:
   #  - rel: stylesheet
   #    href: https://example.com/custom-styles.css
@@ -120,3 +120,6 @@ status-website:
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+
+i18n:
+    footer: KSEC Status Monitor
