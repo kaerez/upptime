@@ -100,13 +100,13 @@ status-website:
       content: "noindex"
   robotsText: "User-agent: * \n Disallow: /"
 
-  name: KSEC Status Monitor
+  name: KSEC
   introTitle: "**KSEC**"
   # introMessage: **Status Monitor**
   introMessage: This is a sample status page which uses **real-time** data from our [Github repository](https://github.com/koj-co/upptime). No server required — just GitHub Actions, Issues, and Pages.
   theme: light #light, dark, night or ocean
   navbar:
-    - title: Status
+    - title: Back
       href: /
 
 # Upptime also supports notifications, assigning issues, and more
