@@ -5,12 +5,13 @@ repo: upptime # The name of this repository
 skipDeleteIssues: true
 #skipDescriptionUpdate: true
 #skipTopicsUpdate: true
-#skipHomepageUpdate: true
+#skipHomepageUpdate: false
 user-agent: GH
 
 sites:
   - name: KSEC
     url: https://www.kalman.co.il
+    maxResponseTime: 30000
     slug: KSEC
   - name: Google DNS 8.8.8.8
     icon: https://www.google.com/favicon.ico
@@ -82,6 +83,7 @@ status-website:
   # faviconSvg: https://example.com/logo.svg
   # customHeadHtml: "<!-- Custom HTML to add in the <head> tag -->"
   # customBodyHtml: "<!-- Custom HTML to add at the beginning of <body> -->"
+  # customFootHtml: "<!-- Custom HTML to add at the end of <body> -->"
   # external js
   # scripts:
   #   - src: https://example.com/script.js
@@ -89,6 +91,10 @@ status-website:
   #     async: true
   # internal js
   # js: "window.onload = function() { alert('Hello!') }"
+  # By default, Upptime uses https://raw.githubusercontent.com to fetch raw content from GitHub repositories. If you are using a proxy or another content delivery URL, you can replace the default user content base URL.
+  # userContentBaseUrl: https://raw.githubusercontent.com
+  i18n:
+    footer: ""
   links:
     - rel: stylesheet
       href: https://example.com/custom-styles.css
@@ -102,12 +108,14 @@ status-website:
 
   name: KSEC
   introTitle: "**KSEC**"
-  # introMessage: **Status Monitor**
-  introMessage: This is a sample status page which uses **real-time** data from our [Github repository](https://github.com/koj-co/upptime). No server required — just GitHub Actions, Issues, and Pages.
+  introMessage: "**Status Monitor**"
   theme: light #light, dark, night or ocean
-  navbar:
-    - title: Back
-      href: /
+  # navbar:
+  #   - title: aaa
+  #     href: /
+  commitMessages:
+    commitAuthorName: "KSEC Bot"
+    commitAuthorEmail: "ksecbot@kalman.co.il"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
