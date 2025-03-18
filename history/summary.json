@@ -2,7 +2,7 @@
   {
     "name": "KSEC",
     "url": "www.kalman.co.il",
-    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "icon": "https://icons.duckduckgo.com/ip3/www.kalman.co.il.ico",
     "slug": "KSEC",
     "status": "up",
     "uptime": "100.00%",
@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 178,
-    "timeDay": 178,
-    "timeWeek": 178,
-    "timeMonth": 178,
-    "timeYear": 178,
+    "time": 167,
+    "timeDay": 167,
+    "timeWeek": 167,
+    "timeMonth": 167,
+    "timeYear": 167,
     "dailyMinutesDown": {}
   },
   {
@@ -64,11 +64,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 128,
-    "timeDay": 128,
-    "timeWeek": 128,
-    "timeMonth": 128,
-    "timeYear": 128,
+    "time": 116,
+    "timeDay": 116,
+    "timeWeek": 116,
+    "timeMonth": 116,
+    "timeYear": 116,
     "dailyMinutesDown": {}
   }
 ]
