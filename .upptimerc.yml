@@ -10,7 +10,7 @@ user-agent: GH
 
 sites:
   - name: KSEC
-    url: https://www.kalman.co.il
+    url: www.kalman.co.il
     check: "tcp-ping"
     port: 443
     slug: KSEC
