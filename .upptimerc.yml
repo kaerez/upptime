@@ -3,9 +3,9 @@ owner: kaerez # Your GitHub organization or username, where this repository live
 repo: upptime # The name of this repository
 # If issues are deleted, they won't show up in the incident history.
 skipDeleteIssues: true
-skipDescriptionUpdate: true
-skipTopicsUpdate: true
-skipHomepageUpdate: true
+#skipDescriptionUpdate: true
+#skipTopicsUpdate: true
+#skipHomepageUpdate: true
 user-agent: GH
 
 sites:
