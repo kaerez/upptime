@@ -10,13 +10,13 @@
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
-    "time": 355,
-    "timeDay": 355,
-    "timeWeek": 355,
-    "timeMonth": 355,
-    "timeYear": 355,
+    "time": 332,
+    "timeDay": 332,
+    "timeWeek": 332,
+    "timeMonth": 332,
+    "timeYear": 332,
     "dailyMinutesDown": {
-      "2025-03-18": 10
+      "2025-03-18": 16
     }
   },
   {
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 5,
-    "timeDay": 5,
-    "timeWeek": 5,
-    "timeMonth": 5,
-    "timeYear": 5,
+    "time": 4,
+    "timeDay": 4,
+    "timeWeek": 4,
+    "timeMonth": 4,
+    "timeYear": 4,
     "dailyMinutesDown": {}
   },
   {
@@ -56,6 +56,46 @@
     "dailyMinutesDown": {}
   },
   {
+    "name": "Google DNS 8.8.8.8 - IPv6",
+    "url": "8.8.8.8",
+    "icon": "https://www.google.com/favicon.ico",
+    "slug": "G8888ipv6",
+    "status": "down",
+    "uptime": "7.06%",
+    "uptimeDay": "7.06%",
+    "uptimeWeek": "7.06%",
+    "uptimeMonth": "7.06%",
+    "uptimeYear": "7.06%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2025-03-18": 0
+    }
+  },
+  {
+    "name": "Google DNS 8.8.4.4 - IPv6",
+    "url": "8.8.4.4",
+    "icon": "https://www.google.com/favicon.ico",
+    "slug": "G8844ipv6",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2025-03-18": 0
+    }
+  },
+  {
     "name": "Google DNS - dns.google",
     "url": "https://dns.google",
     "icon": "https://www.google.com/favicon.ico",
@@ -66,31 +106,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 140,
-    "timeDay": 140,
-    "timeWeek": 140,
-    "timeMonth": 140,
-    "timeYear": 140,
+    "time": 126,
+    "timeDay": 126,
+    "timeWeek": 126,
+    "timeMonth": 126,
+    "timeYear": 126,
     "dailyMinutesDown": {}
-  },
-  {
-    "name": "Google DNS IPv6 - dns.google",
-    "url": "https://dns.google",
-    "icon": "https://www.google.com/favicon.ico",
-    "slug": "GURIv6",
-    "status": "up",
-    "uptime": "45.83%",
-    "uptimeDay": "45.83%",
-    "uptimeWeek": "45.83%",
-    "uptimeMonth": "45.83%",
-    "uptimeYear": "45.83%",
-    "time": 28,
-    "timeDay": 28,
-    "timeWeek": 28,
-    "timeMonth": 28,
-    "timeYear": 28,
-    "dailyMinutesDown": {
-      "2025-03-18": 6
-    }
   }
 ]
