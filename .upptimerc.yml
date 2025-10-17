@@ -10,7 +10,7 @@ user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 
 sites:
   - name: KSEC
-    icon: https://icons.duckduckgo.com/ip3/www.kalman.co.il.ico
+    icon: https://external-content.duckduckgo.com/ip3/www.kalman.co.il.ico
     url: www.kalman.co.il
     check: "tcp-ping"
     port: 443
